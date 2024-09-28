@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html lang="fr"></html>
+<html lang="fr">
+
+</html>
+
 <head>
    <meta charset="UTF-8">
    <title>ATEM</title>
@@ -8,11 +11,13 @@
    <script src="script.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.6.0/jszip.min.js"></script>
 </head>
+
 <body>
    <header>
       <div class="top-menu">
          <script> const URL = "https://www.math.univ-paris-diderot.fr/"; </script>
-         <a class="menu-item flash" onclick="showSubpage('ParticipationSubpage', 'Participation - Entraide')">Participation/Entraide</a>
+         <a class="menu-item flash"
+            onclick="showSubpage('ParticipationSubpage', 'Participation - Entraide')">Participation/Entraide</a>
          <a class="menu-item" id="linkURL" target="_blank">Lien UFR</a>
          <script>
             const linkElement = document.getElementById('linkURL');
@@ -24,7 +29,7 @@
          <span class="big-letter">A</span><span class="grey big-text">rchives</span>
          <span class="big-letter">T</span><span class="grey big-text">éléchargeables d'</span>
          <span class="big-letter">E</span><span class="grey big-text">xamens de</span>
-         <span class="big-letter">M</span><span class="grey big-text">athématiques</span>  
+         <span class="big-letter">M</span><span class="grey big-text">athématiques</span>
       </h2>
    </header>
    <div id="mainPage">
@@ -42,20 +47,28 @@
             <li>
                <h3>Master 1</h3>
                <ul class="sub-master-list">
-                  <li class="archives-item" onclick="showSubpage('m1TroncSubpage', 'Archives M1 Tronc commun')">Archives M1 Tronc commun</li>
-                  <li class="archives-item" onclick="showSubpage('m1MICSubpage', 'Archives M1 MIC')">Archives M1 MIC</li>
-                  <li class="archives-item" onclick="showSubpage('m1MIDSSubpage', 'Archives M1 MIDS')">Archives M1 MIDS</li>
-                  <li class="archives-item" onclick="showSubpage('m1MFASubpage', 'Archives M1 MFA')">Archives M1 MFA</li>
+                  <li class="archives-item" onclick="showSubpage('m1TroncSubpage', 'Archives M1 Tronc commun')">Archives
+                     M1 Tronc commun</li>
+                  <li class="archives-item" onclick="showSubpage('m1MICSubpage', 'Archives M1 MIC')">Archives M1 MIC
+                  </li>
+                  <li class="archives-item" onclick="showSubpage('m1MIDSSubpage', 'Archives M1 MIDS')">Archives M1 MIDS
+                  </li>
+                  <li class="archives-item" onclick="showSubpage('m1MFASubpage', 'Archives M1 MFA')">Archives M1 MFA
+                  </li>
                   <!-- Add more M1 options here -->
                </ul>
             </li>
             <li>
                <h3>Master 2</h3>
                <ul class="sub-master-list">
-                  <li class="archives-item" onclick="showSubpage('m2TroncSubpage', 'Archives M2 Tronc Commun')">Archives M2 Tronc Commun</li>
-                  <li class="archives-item" onclick="showSubpage('m2MICSubpage', 'Archives M2 MIC')">Archives M2 MIC</li>
-                  <li class="archives-item" onclick="showSubpage('m2MIDSSubpage', 'Archives M2 MIDS')">Archives M2 MIDS</li>
-                  <li class="archives-item" onclick="showSubpage('m2MFASubpage', 'Archives M2 MFA')">Archives M2 MFA</li>
+                  <li class="archives-item" onclick="showSubpage('m2TroncSubpage', 'Archives M2 Tronc Commun')">Archives
+                     M2 Tronc Commun</li>
+                  <li class="archives-item" onclick="showSubpage('m2MICSubpage', 'Archives M2 MIC')">Archives M2 MIC
+                  </li>
+                  <li class="archives-item" onclick="showSubpage('m2MIDSSubpage', 'Archives M2 MIDS')">Archives M2 MIDS
+                  </li>
+                  <li class="archives-item" onclick="showSubpage('m2MFASubpage', 'Archives M2 MFA')">Archives M2 MFA
+                  </li>
                   <!-- Add more M2 options here -->
                </ul>
             </li>
@@ -73,12 +86,17 @@
             </div>
             <div class="text-block">
                <p>
-                  Si vous avez eu accès aux diverses archives d'examens pour vos révisions, c'est grâce à la contribution de vos anciens camarades 
-                  qui ont partagé ces examens sur ce site. À présent, vous avez l'opportunité de faire de même en envoyant par e-mail un ou plusieurs 
-                  fichiers PDF d'examens que vous avez passés, de préférence au format PDF, éventuellement en image. Par exemple, un nom de fichier PDF 
+                  Si vous avez eu accès aux diverses archives d'examens pour vos révisions, c'est grâce à la
+                  contribution de vos anciens camarades
+                  qui ont partagé ces examens sur ce site. À présent, vous avez l'opportunité de faire de même en
+                  envoyant par e-mail un ou plusieurs
+                  fichiers PDF d'examens que vous avez passés, de préférence au format PDF, éventuellement en image. Par
+                  exemple, un nom de fichier PDF
                   que vous pourriez transmettre serait : <span class="special-text">Algebre_L2_S3_2022_2023</span>.
                   <br><br>
-                  Si, en plus de cela, vous êtes disposé à vous engager davantage, il est envisageable de prendre en charge la gestion du site, ce qui inclut la mise à jour des archives, d'éventuelles restructurations du code pour l'ajout d'années, voire l'incorporation de nouvelles fonctionnalités, etc.
+                  Si, en plus de cela, vous êtes disposé à vous engager davantage, il est envisageable de prendre en
+                  charge la gestion du site, ce qui inclut la mise à jour des archives, d'éventuelles restructurations
+                  du code pour l'ajout d'années, voire l'incorporation de nouvelles fonctionnalités, etc.
                   <br><br>
                   E-mail : <a href="mailto:atem-upc@tutamail.com" class="email-link">atem-upc@tutamail.com</a>
                </p>
@@ -88,38 +106,38 @@
       <script>
          // LICENCE
          const mainPath = "./archives/licence";
-         const l1SubpageContent = generateSubpageContent("l1Subpage", "L1", [[2022, 2023], [2021, 2022], [2020, 2021]], mainPath);
-         const l2SubpageContent = generateSubpageContent("l2Subpage", "L2", [[2022, 2023], [2021, 2022], [2020, 2021]], mainPath);
-         const l3SubpageContent = generateSubpageContent("l3Subpage", "L3", [[2022, 2023], [2021, 2022], [2020, 2021]], mainPath);
-         
+         const l1SubpageContent = generateSubpageContent("l1Subpage", "L1", [[2018, 2019], [2017, 2018], [2015, 2016], [2014, 2015]], mainPath);
+         const l2SubpageContent = generateSubpageContent("l2Subpage", "L2", [[2019, 2020]], mainPath);
+         const l3SubpageContent = generateSubpageContent("l3Subpage", "L3", [[2021, 2022], [2020, 2021], [2019, 2020], [2018, 2019], [2017, 2018], [2016, 2017], [2015, 2016], [2011, 2017]], mainPath);
+
          document.write(l1SubpageContent);
          document.write(l2SubpageContent);
          document.write(l3SubpageContent);
-         
+
          // MASTER
          const mainPath2 = "./archives/master/M1";
-         const m1TroncSubpageContent = generateSubpageContent("m1TroncSubpage", "M1 Tronc commun", [[2022, 2023], [2021, 2022], [2020, 2021]], mainPath2);
-         const m1MICSubpageContent = generateSubpageContent("m1MICSubpage", "M1 MIC", [[2022, 2023], [2021, 2022], [2020, 2021]], mainPath2);
-         const m1MIDSSubpageContent = generateSubpageContent("m1MIDSSubpage", "M1 MIDS", [[2022, 2023], [2021, 2022], [2020, 2021]], mainPath2);
-         const m1MFASubpageContent = generateSubpageContent("m1MFASubpage", "M1 MFA", [[2022, 2023], [2021, 2022], [2020, 2021]], mainPath2);
-         
-         
+         const m1TroncSubpageContent = generateSubpageContent("m1TroncSubpage", "M1 Tronc commun", [[2022, 2023]], mainPath2);
+         const m1MICSubpageContent = generateSubpageContent("m1MICSubpage", "M1 MIC", [[2022, 2023]], mainPath2);
+         const m1MIDSSubpageContent = generateSubpageContent("m1MIDSSubpage", "M1 MIDS", [[2022, 2023]], mainPath2);
+         const m1MFASubpageContent = generateSubpageContent("m1MFASubpage", "M1 MFA", [[2022, 2023]], mainPath2);
+
+
          const mainPath3 = "./archives/master/M2";
-         const m2TroncSubpageContent = generateSubpageContent("m2TroncSubpage", "M2 Tronc commun", [[2022, 2023], [2021, 2022], [2020, 2021]], mainPath3);
-         const m2MICSubpageContent = generateSubpageContent("m2MICSubpage", "M2 MIC", [[2023, 2024], [2022, 2023], [2021, 2022], [2020, 2021]], mainPath3);
-         const m2MIDSSubpageContent = generateSubpageContent("m2MIDSSubpage", "M2 MIDS", [[2022, 2023], [2021, 2022], [2020, 2021]], mainPath3);
-         const m2MFASubpageContent = generateSubpageContent("m2MFASubpage", "M2 MFA", [[2022, 2023], [2021, 2022], [2020, 2021]], mainPath3);
-         
+         const m2TroncSubpageContent = generateSubpageContent("m2TroncSubpage", "M2 Tronc commun", [[2022, 2023]], mainPath3);
+         const m2MICSubpageContent = generateSubpageContent("m2MICSubpage", "M2 MIC", [[2023, 2024], [2022, 2023], [2021, 2022], [2020, 2021], [2019, 2020], [2016, 2017], [2015, 2016], [2009, 2010]], mainPath3);
+         const m2MIDSSubpageContent = generateSubpageContent("m2MIDSSubpage", "M2 MIDS", [[2022, 2023]], mainPath3);
+         const m2MFASubpageContent = generateSubpageContent("m2MFASubpage", "M2 MFA", [[2022, 2023]], mainPath3);
+
          document.write(m1TroncSubpageContent);
          document.write(m1MICSubpageContent);
          document.write(m1MIDSSubpageContent);
          document.write(m1MFASubpageContent);
-         
+
          document.write(m2TroncSubpageContent);
          document.write(m2MICSubpageContent);
          document.write(m2MIDSSubpageContent);
          document.write(m2MFASubpageContent);
-      </script>      
+      </script>
    </div>
    <footer>
       <p>
@@ -130,8 +148,10 @@
          updateClock();
       </script>
       <p>
-         &copy; <script> document.write(getCurrentYear());</script> ATEM. No Rights Reserved.
+         &copy;
+         <script> document.write(getCurrentYear());</script> ATEM. No Rights Reserved.
       </p>
    </footer>
 </body>
+
 </html>
